@@ -1,0 +1,117 @@
+body, html {
+    background-image: linear-gradient(#7a5d3f, #22180f, #22180f, #7a5d3f);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bgc-image {
+    background: url("images/bgc.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(2px);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+                
+    
+  }
+  
+  .bgc-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: larger;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .places {
+    display: flexbox;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+ 
+  #heart {
+    margin-top: 50px;
+    width: 400px;
+    border-radius: 20px;
+
+  }
+  #bgc-content{
+    padding: 0 100px 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+
+  }
+
+  .bgctext {
+    padding: 50px 100px 0 100px;
+    text-align: left;
+  }
+
+  #lake {
+    margin-top: 50px auto 50px 150px;
+    width: 400px;
+    border-radius: 20px;
+  }
+  #venice-content{
+    
+    padding: 50px 100px 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+
+  }
+
+  .venicetext {
+    padding: 50px 100px 0 100px;
+    text-align: left;
+  }
+
+  #church {
+    margin: 50px 0 50px 140px;
+    width: 400px;
+    border-radius: 20px;
+
+  }
+  #churh-content{
+    padding: 0 100px 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+
+  }
+
+  .churchtext {
+    padding: 50px 100px 0 100px;
+    text-align: left;
+  }
+
+footer{
+  text-shadow: 0 0 2px black;
+  padding: 3px;
+  background-color: slategray;
+}
